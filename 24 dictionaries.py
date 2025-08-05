@@ -28,3 +28,15 @@ alien_3 = {'colour': 'pink', 'points': 15}
 alien_3['x_position'] = 0
 alien_3['y_position'] = 25
 print(alien_3)
+
+# A practice dictionary of python terms:
+list = {'list' : 'a list allowed us to store sets of items in a list format and we can pull and print individual items from the list using place seleectors'}
+variable = {'variable': 'there are four basic types of variable in python: numerical, rating, string and boolean'}
+constant = {'constant': 'a constant is a value that doesn ot change throughout a programmes execution'}
+statement_or_question = {'= or ==' : ' an = represents a statement; 2=2, a == represents a question; is 2==2?'}
+tuples = {'tuples': 'tuples are lists that we place into (parenthesis) rather than [square brackets], python will read the parenthesis and prevent operations from editing the tuple'}
+print(list['list'])
+print(variable['variable'])
+print(constant['constant'])
+print(statement_or_question['= or =='])
+print(tuples['tuples'])
