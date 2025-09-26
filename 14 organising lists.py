@@ -6,7 +6,6 @@ print(pets)
 # pets.sort will sort a list alphabetically, once a list is sorted using this method it cannot be reverted
 
 # Sorting in reverse alphabetical order:
-
 towns = ['Maidstone','Ipswitch','Canterbury','Ashford','Gillingham','Rochester']
 print(towns)
 towns.sort(reverse=True)
@@ -23,6 +22,5 @@ print(sorted(trees))
 
 print('\nHere is the original list again:')
 print(trees)
-
 # Sort() will permanently sort, sorted(list_name)) will sort it temporarily
 # The sorted() function will also accept a revser=True command

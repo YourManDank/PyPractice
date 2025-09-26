@@ -15,20 +15,23 @@ print(airliners)
 capital_cities = ['London','Paris','Berlin','Washing D.C']
 capital_cities.insert(0,'Rome')
 print(capital_cities)
+# the 0 defines the index location in which we want to insert the new element into the list, in this case 'Rome'
 
 # Removing elements from a list:
 precious_stones = ['Ruby','Sapphire','Diamond','Emerald']
 print(precious_stones)
 del precious_stones[3]
 print(precious_stones)
+# Remember, python lists start at 0, so deleting index 3 will delete 'Emerald'
 
-# The pop() method; somethings we want to retain the value of an item after it is deleted; for example if you want to remove a name from
+# The pop() method; sometimes we want to retain the value of an item after it is deleted; for example if you want to remove a name from
 # a list of active members and transfer it to a list of inactive members. The term 'pop' insinuates 'popping' an item from the top of a stack
 anatomy = ['Hands','Arms','Legs','Feet']
 print(anatomy)
 popped_anatomy = anatomy.pop()
 print(anatomy)
 print(popped_anatomy)
+# Without an index pop() will remove the last item from a list, however it can be indexed such as pop(2)
 
 # To track the item that gets removed by popping:
 most_recent_item = anatomy.pop()
@@ -40,3 +43,4 @@ seasons = ['Spring','Summer','Autumn','Winter']
 print(seasons)
 seasons.remove('Winter')
 print(seasons)
+# The remove function allows us to remove list elements using their exact name rather than their index number

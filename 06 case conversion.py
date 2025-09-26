@@ -1,21 +1,21 @@
-name = 'Sean Morgan'
+name = 'Charlie Kirk'
 print('basic up/lower')
 print(name.upper())
 print(name.lower())
-# In some cases we may want to represent that first and last name with seperate variables and them combine them when printing:
 
-first_name = 'Sean'
-last_name = 'Morgan'
+# In some cases we may want to represent that first and last name with seperate variables and them combine them when printing:
+first_name = 'Charlie'
+last_name = 'Kirk'
 full_name = f'{first_name} {last_name}'
 # f'{value}{value2}{value3}' "f" stands for format, meaning a formatted string, putting values into the {braces} makes it easier to visualise what the formatted string does
 # at a glance without having to run the programme
 
-print('Using formatted string method')
+print('\nUsing formatted string method:')
 print(full_name.upper()) 
 print(first_name.lower())
 print(last_name.lower())
 
-print("Using .title to ensure user's name is capitalised")
+print("\nUsing .title to ensure user's name is capitalised:")
 print(f'Hello, {full_name.title()}!')
 # adding the .title() method changes the user's response to be capitalised
 
